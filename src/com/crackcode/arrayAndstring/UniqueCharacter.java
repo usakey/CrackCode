@@ -1,3 +1,7 @@
+/*
+ * 1.1 Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?
+ */
+
 package com.crackcode.arrayAndstring;
 
 public class UniqueCharacter {
@@ -7,10 +11,10 @@ public class UniqueCharacter {
 
     System.out.println("s1 is unique?" + UniqueCharacter.isUnique(s1));
     System.out.println("s2 is unique?" + UniqueCharacter.isUnique(s2));
-    
+
     System.out.println("s1 is unique?" + UniqueCharacter.isUniqueChars(s1));
     System.out.println("s2 is unique?" + UniqueCharacter.isUniqueChars(s2));
-    
+
   }
   /* time O(n), space O(n)
    * assume char set is ASCII

@@ -1,3 +1,6 @@
+/*
+ * 1.2 Write code to reverse a C-Style String. (C-String means that “abcd” is represented as five characters, including the null character.)
+ */
 package com.crackcode.arrayAndstring;
 
 public class ReverseCstring {
@@ -19,13 +22,13 @@ public class ReverseCstring {
    * reverse the string NOT using StringBuffer
    */
   public static String stringReverse(String str){
-    String reverse = "";   
+    String reverse = "";
     if(str != null){
       for(int i=str.length()-1; i>=0; --i){
         reverse = reverse + str.charAt(i);
       }
-    }else 
+    }else
       System.out.println("String is NULL!");
-    return reverse;    
+    return reverse;
   }
 }
